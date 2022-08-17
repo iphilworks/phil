@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    	<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <link rel="icon" href="assets/images/iphil-white.png" type="image/x-icon">
+        <title>iPhil Works - Contact Me Page</title>
+        <link href="assets/css/main.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+        <!-- from template -->
+    	<link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+    	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/css/templatemo-xtra-blog.css" rel="stylesheet">
+    </head>
+    <body class="contact-page"><!-- oncontextmenu="return false" --> <!-- preventing users to use right click -->
+        <!-- <div id="loader"></div> -->
+        <div class="se-pre-con"></div>
+    	<header class="tm-header" id="tm-header">
+            <div class="tm-header-wrapper">
+                <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="tm-site-header">
+                    <div class="mb-3 mx-auto tm-site-logo"><img src="assets/images/iphil-white.png" alt="Image" class="img-fluid"></div>
+                </div>
+                <nav class="tm-nav" id="tm-nav">            
+                    <ul>
+                        <li class="tm-nav-item">
+                            <a href="index.html" class="tm-nav-link">
+                                <i class="fas fa-home"></i>
+                                Home
+                            </a>
+                        </li>
+                        <li class="tm-nav-item">
+                            <a href="about.html" class="tm-nav-link">
+                                <i class="fas fa-address-card"></i>
+                                About Me
+                            </a>
+                        </li>
+                        <li class="tm-nav-item">
+                            <a href="experiences.html" class="tm-nav-link">
+                                <i class="fas fa-chart-bar"></i>
+                                Experiences
+                            </a>
+                        </li>
+                        <li class="tm-nav-item">
+                            <a href="portfolio.html" class="tm-nav-link">
+                                <i class="fas fa-folder-open"></i>
+                                Portfolio
+                            </a>
+                        </li>
+                        <li class="tm-nav-item active">
+                            <a href="contact.html" class="tm-nav-link">
+                                <i class="fas fa-envelope"></i>
+                                Contact Me
+                            </a>
+                        </li>
+
+                    </ul>
+                </nav>
+                <div class="tm-mb-65">
+                    <a href="https://www.linkedin.com/in/philine-keele" class="tm-social-link" target="_blank">
+                        <i class="fab fa-linkedin tm-social-icon"></i>
+                    </a>
+                    <a href="https://github.com/philinekel28" class="tm-social-link" target="_blank">
+                        <i class="fab fa-github tm-social-icon"></i>
+                    </a>
+                    <a href="https://www.instagram.com/philine.keele/" class="tm-social-link" target="_blank">
+                        <i class="fab fa-instagram tm-social-icon"></i>
+                    </a>
+                </div>
+                <div class="header-copy">
+                    <div class="flex flex-v">
+                        <p class="copy">Copyright © 2019 | Powered by</p> <a href="http://iphilworks.github.io/"><img src="assets/images/iphil-white.png" width="50px" height="auto" alt="Logo"></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="container-fluid">
+            <main class="tm-main">
+                <hr class="top">
+                <div class="container tm-row tm-mb-45">
+                    <div class="col-12">
+                        <div class="gmap_canvas"> <!-- Google Map -->
+                            <iframe width="100%" height="477" id="gmap_canvas"
+                                src="https://maps.google.com/maps?q=Av.+L%C3%BAcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                        </div>
+                    </div>                
+                </div>
+                <div class="container tm-row tm-mb-120">
+                    <div class="col-12">
+                        <h2 class="tm-color-primary tm-post-title tm-mb-60">Contact Us</h2>
+                    </div>
+                </div>
+                <div class="container flex tm-row tm-mb-120">
+                    <div class="col-lg-7 tm-contact-left">
+                        <form method="POST" action="" class="mb-5 ml-auto mr-0 tm-contact-form">                        
+                            <div class="form-group row mb-4">
+                                <label for="name" class="col-sm-3 col-form-label text-right tm-color-primary">Name</label>
+                                <div class="col-sm-9">
+                                    <input class="form-control mr-0 ml-auto" name="name" id="name" type="text" required>                            
+                                </div>
+                            </div>
+                            <div class="form-group row mb-4">
+                                <label for="email" class="col-sm-3 col-form-label text-right tm-color-primary">Email</label>
+                                <div class="col-sm-9">
+                                    <input class="form-control mr-0 ml-auto" name="email" id="email" type="email" required>
+                                </div>
+                            </div>
+                            <div class="form-group row mb-4">
+                                <label for="subject" class="col-sm-3 col-form-label text-right tm-color-primary">Subject</label>
+                                <div class="col-sm-9">
+                                    <input class="form-control mr-0 ml-auto" name="subject" id="subject" type="text" required>
+                                </div>
+                            </div>
+                            <div class="form-group row mb-5">
+                                <label for="message" class="col-sm-3 col-form-label text-right tm-color-primary">Message</label>
+                                <div class="col-sm-9">
+                                    <textarea class="form-control mr-0 ml-auto" name="message" id="message" rows="8" required></textarea>                                
+                                </div>
+                            </div>
+                            <div class="form-group row text-right">
+                                <div class="col-12">
+                                    <button class="tm-btn tm-btn-primary tm-btn-small">Submit</button>                        
+                                </div>                            
+                            </div>                                
+                        </form>
+                    </div>
+                    <div class="col-lg-5 tm-contact-right">
+                        <address class="mb-4 tm-color-gray">
+                            120 Lorem ipsum dolor sit amet,
+                            consectetur adipiscing 10550
+                        </address>
+                        <span class="d-block">
+                            Tel:
+                            <a href="tel:060-070-0980" class="tm-color-gray">060-070-0980</a>
+                        </span>
+                        <span class="mb-4 d-block">
+                            Email:
+                            <a href="mailto:info@company.com" class="tm-color-gray">info@company.com</a>
+                        </span>
+                        <p class="mb-5 tm-line-height-short">
+                            Maecenas eu mi eu dui cursus
+                            consequat non eu metus. Morbi ac
+                            turpis eleifend, commodo purus
+                            eget, commodo mauris.
+                        </p>
+                        <ul class="tm-social-links">
+                            <li class="mb-2">
+                                <a href="https://facebook.com" class="d-flex align-items-center justify-content-center">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="https://twitter.com" class="d-flex align-items-center justify-content-center">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="https://youtube.com" class="d-flex align-items-center justify-content-center">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="https://instagram.com" class="d-flex align-items-center justify-content-center mr-0">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <hr class="bottom">
+            </main>
+        </div>
+
+        <a class="cta" href="tel:+639458036396"><span>&phone;</span></a>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- <script src="assets/js/responsive-menu.js"></script> -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+        <script src="assets/js/cookie-script.js"></script>
+        <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+        <!-- from template -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/templatemo-script.js"></script>
+        <!-- Responsive loading gif while page loads -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+    </body>
+</html>
